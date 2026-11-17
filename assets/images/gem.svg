@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Gema/Diamante estilo Flaticon -->
+  <defs>
+    <linearGradient id="gemGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7DD3F0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#5BC0EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4AA8D8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Forma de diamante -->
+  <polygon points="50,10 80,35 50,90 20,35" fill="url(#gemGradient)" stroke="#3A9BC8" stroke-width="2"/>
+  
+  <!-- Facetas superiores -->
+  <polygon points="50,10 65,35 50,35" fill="#9AE0F5" opacity="0.8"/>
+  <polygon points="50,10 35,35 50,35" fill="#7DD3F0" opacity="0.9"/>
+  
+  <!-- Facetas laterales -->
+  <polygon points="20,35 50,35 50,90" fill="#4AA8D8" opacity="0.7"/>
+  <polygon points="80,35 50,35 50,90" fill="#3A9BC8" opacity="0.6"/>
+  
+  <!-- Brillo -->
+  <polygon points="35,25 45,25 40,40" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="40" cy="30" r="3" fill="#FFFFFF" opacity="0.8"/>
+</svg>

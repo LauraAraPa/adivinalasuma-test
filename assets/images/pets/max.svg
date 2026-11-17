@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Max - Perrito verde cuerpo completo -->
+  <defs>
+    <radialGradient id="maxBody" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#9AE87A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7ED957;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Cola -->
+  <path d="M 70 75 Q 85 65 80 55 Q 78 52 75 55" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1.5"/>
+  
+  <!-- Cuerpo -->
+  <ellipse cx="50" cy="75" rx="25" ry="20" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1.5"/>
+  
+  <!-- Patas traseras -->
+  <ellipse cx="38" cy="90" rx="8" ry="6" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1"/>
+  <ellipse cx="62" cy="90" rx="8" ry="6" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1"/>
+  
+  <!-- Cabeza -->
+  <circle cx="50" cy="45" r="28" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1.5"/>
+  
+  <!-- Orejas largas caídas -->
+  <ellipse cx="28" cy="40" rx="10" ry="18" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1" transform="rotate(-15 28 40)"/>
+  <ellipse cx="72" cy="40" rx="10" ry="18" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1" transform="rotate(15 72 40)"/>
+  <ellipse cx="28" cy="42" rx="7" ry="14" fill="#8B4513" opacity="0.7" transform="rotate(-15 28 42)"/>
+  <ellipse cx="72" cy="42" rx="7" ry="14" fill="#8B4513" opacity="0.7" transform="rotate(15 72 42)"/>
+  
+  <!-- Parche de ojo -->
+  <ellipse cx="42" cy="42" rx="8" ry="10" fill="#8B4513" opacity="0.5"/>
+  
+  <!-- Mejillas -->
+  <ellipse cx="38" cy="50" rx="5" ry="3" fill="#FFB6C1" opacity="0.6"/>
+  <ellipse cx="62" cy="50" rx="5" ry="3" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Ojos -->
+  <ellipse cx="42" cy="42" rx="5" ry="6" fill="#FFFFFF" stroke="#2C3E50" stroke-width="0.5"/>
+  <ellipse cx="58" cy="42" rx="5" ry="6" fill="#FFFFFF" stroke="#2C3E50" stroke-width="0.5"/>
+  <circle cx="43" cy="43" r="3" fill="#2C3E50"/>
+  <circle cx="59" cy="43" r="3" fill="#2C3E50"/>
+  <circle cx="44" cy="41" r="1.5" fill="#FFFFFF"/>
+  <circle cx="60" cy="41" r="1.5" fill="#FFFFFF"/>
+  
+  <!-- Nariz -->
+  <ellipse cx="50" cy="50" rx="6" ry="4" fill="#2C3E50"/>
+  <ellipse cx="49" cy="49" rx="2" ry="1" fill="#FFFFFF" opacity="0.5"/>
+  
+  <!-- Boca -->
+  <path d="M 45 55 Q 50 59 55 55" stroke="#2C3E50" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 50 55 L 50 57" stroke="#2C3E50" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Lengua -->
+  <ellipse cx="50" cy="62" rx="5" ry="4" fill="#FF69B4"/>
+  <path d="M 50 59 L 50 64" stroke="#FF1493" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Patas delanteras -->
+  <ellipse cx="42" cy="85" rx="6" ry="8" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1"/>
+  <ellipse cx="58" cy="85" rx="6" ry="8" fill="url(#maxBody)" stroke="#6BC445" stroke-width="1"/>
+</svg>

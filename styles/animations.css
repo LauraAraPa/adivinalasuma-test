@@ -1,0 +1,157 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes success-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(126, 217, 87, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(126, 217, 87, 0.9);
+  }
+}
+
+@keyframes check-bounce {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes x-bounce {
+  0% {
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes particle-explosion {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--tx), var(--ty)) scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes warning-pulse {
+  0%, 100% {
+    background-color: var(--color-background-primary);
+  }
+  50% {
+    background-color: rgba(255, 107, 107, 0.08);
+  }
+}
+
+.dark-mode .warning-background {
+  animation: warning-pulse-dark 1s infinite;
+}
+
+@keyframes warning-pulse-dark {
+  0%, 100% {
+    background-color: var(--color-background-primary);
+  }
+  50% {
+    background-color: rgba(125, 211, 252, 0.08);
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.3s ease-in;
+}
+
+.fade-out {
+  animation: fade-out 0.3s ease-out;
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+}
+
+.gem-bounce {
+  animation: bounce 0.5s ease;
+}
+
+/* Confetti animation */
+.confetti {
+  position: fixed;
+  top: -20px;
+  width: 10px;
+  height: 10px;
+  z-index: 9999;
+  pointer-events: none;
+  animation: confetti-fall linear forwards;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
+}

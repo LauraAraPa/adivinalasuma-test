@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "report-1",
+  "run": {
+    "id": "01a0ff0c-5e7e-7188-b96e-1f7d43e61093",
+    "specVersion": "0.1",
+    "runner": {
+      "name": "e2e",
+      "version": "0.16.0"
+    },
+    "status": "passed",
+    "exitCode": 0,
+    "startedAt": "2026-10-02T23:56:36.484Z",
+    "finishedAt": "2026-10-02T23:56:39.200Z",
+    "project": {
+      "id": "adivinalasuma-test",
+      "configDigest": "836dc66ef6f219e3c3d7d768297d13e4cf1f803db4367b5c81bed5786a610c64"
+    },
+    "environment": {
+      "ci": false,
+      "trustNoticeShown": false,
+      "os": "darwin 25.5.0",
+      "arch": "x64",
+      "runtime": "node v22.23.3"
+    },
+    "targets": [
+      {
+        "id": "web",
+        "index": 0,
+        "platform": "web",
+        "baseOrigin": "http://localhost:8000",
+        "environment": "test",
+        "engine": {
+          "name": "web",
+          "version": "0.11.2",
+          "spiVersion": 1
+        },
+        "capabilities": [
+          "actions",
+          "artifacts",
+          "browser",
+          "keyboard",
+          "location",
+          "observation",
+          "pointer",
+          "state"
+        ],
+        "artifactCapabilities": [
+          "screenshot",
+          "trace",
+          "video"
+        ],
+        "stateCapability": true
+      }
+    ],
+    "serialGroups": [],
+    "results": [
+      {
+        "id": "29a1a6d278cdf294622cd40022a51335b1f38c707bf5bbab268336d319a31699",
+        "testId": "tests/example.e2e.ts::la%20app%20abre%20correctamente",
+        "kind": "test",
+        "declarationIndex": 0,
+        "titlePath": [
+          "la app abre correctamente"
+        ],
+        "file": "tests/example.e2e.ts",
+        "source": {
+          "file": "tests/example.e2e.ts",
+          "line": 4,
+          "column": 1
+        },
+        "targetId": "web",
+        "platform": "web",
+        "agent": "default",
+        "repeat": 0,
+        "tags": [],
+        "selected": true,
+        "status": "passed",
+        "attempts": [
+          {
+            "id": "01a0ff0c-647f-7143-b39f-2216a54d407e",
+            "index": 0,
+            "status": "passed",
+            "startedAt": "2026-10-02T23:56:37.375Z",
+            "durationMs": 1767,
+            "artifacts": [
+              {
+                "id": "01a0ff0c-647f-7143-b39f-2216a54d407e:artifact:0",
+                "kind": "trace",
+                "mediaType": "application/zip",
+                "redaction": "not-required",
+                "producer": {
+                  "kind": "attempt"
+                },
+                "path": "web/tests_example.e2e.ts__la_20app_20abre_20correctamente-0ec988e9/default/attempt-0/trace/trace.zip",
+                "size": 104746,
+                "sha256": "a3b5b387c109ed917157bb6ff3398a467c141cc4045f4061bec9d98d1820ab16"
+              }
+            ],
+            "secondaryErrors": [],
+            "cleanup": "complete",
+            "steps": [
+              {
+                "id": "01a0ff0c-647f-7143-b39f-2216a54d407e:0",
+                "index": 0,
+                "kind": "app",
+                "api": "app.open",
+                "label": "/",
+                "status": "passed",
+                "startedAt": "2026-10-02T23:56:37.918Z",
+                "durationMs": 1129,
+                "events": [],
+                "artifacts": [],
+                "source": {
+                  "file": "tests/example.e2e.ts",
+                  "line": 5,
+                  "column": 13
+                }
+              },
+              {
+                "id": "01a0ff0c-647f-7143-b39f-2216a54d407e:1",
+                "index": 1,
+                "kind": "assertion",
+                "api": "expect.toBeVisible",
+                "label": "locator(\"body\")",
+                "status": "passed",
+                "startedAt": "2026-10-02T23:56:39.048Z",
+                "durationMs": 49,
+                "events": [],
+                "artifacts": [],
+                "source": {
+                  "file": "tests/example.e2e.ts",
+                  "line": 6,
+                  "column": 41
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "discovered": 1,
+      "selected": 1,
+      "executed": 1,
+      "passed": 1,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "limits": {
+      "maxAgentContextBytes": 16384,
+      "maxLedgerBytes": 8192,
+      "maxObservationBytes": 262144,
+      "maxEventsPerStep": 1000,
+      "maxModelTokensPerCall": 64000
+    },
+    "usage": {
+      "discoveredResults": 1,
+      "maxAgentContextBytes": 0,
+      "maxLedgerBytes": 0,
+      "maxObservationBytes": 0,
+      "artifactBytes": 104746,
+      "downloads": 0,
+      "events": 0,
+      "modelTokens": 0,
+      "maxModelCallsInStep": 0,
+      "maxActionStepsInStep": 0
+    }
+  }
+}

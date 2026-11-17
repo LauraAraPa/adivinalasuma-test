@@ -1,0 +1,50 @@
+:root {
+  /* Background colors */
+  --color-background-primary: #F0F8FF;
+  --color-background-secondary: #FFFFFF;
+
+  /* Text colors */
+  --color-text-primary: #2C3E50;
+  --color-text-secondary: #5A6C7D;
+
+  /* Brand colors */
+  --color-brand-primary: #5BC0EB;
+  --color-brand-secondary: #7ED957;
+
+  /* Semantic colors */
+  --color-success: #7ED957;
+  --color-error: #FF6B6B;
+  --color-warning: #FFD93D;
+  --color-info: #5BC0EB;
+
+  /* Accent colors */
+  --color-accent-gem: #5BC0EB;
+  --color-accent-timer: #2C3E50;
+  --color-accent-timer-warning: #FF6B6B;
+  --color-accent-timer-warning-dark: #7DD3FC;
+}
+
+.dark-mode {
+  /* Background colors */
+  --color-background-primary: #1A2332;
+  --color-background-secondary: #243447;
+
+  /* Text colors */
+  --color-text-primary: #E0E8F0;
+  --color-text-secondary: #A0B0C0;
+
+  /* Brand colors */
+  --color-brand-primary: #5BC0EB;
+  --color-brand-secondary: #7ED957;
+
+  /* Semantic colors */
+  --color-success: #7ED957;
+  --color-error: #FF6B6B;
+  --color-warning: #FFD93D;
+  --color-info: #5BC0EB;
+
+  /* Accent colors */
+  --color-accent-gem: #5BC0EB;
+  --color-accent-timer: #E0E8F0;
+  --color-accent-timer-warning: #FF6B6B;
+}
